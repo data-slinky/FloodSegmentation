@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: water_edge_detection.aux
+The style file: elsarticle-num.bst
+Illegal, another \bibstyle command---line 151 of file water_edge_detection.aux
+ : \bibstyle
+ :          {plain}
+I'm skipping whatever remains of this command
+Database file #1: floods_bib.bib
+Warning--empty pages in poser
+Warning--empty pages in moreira
+Warning--empty pages in ko
+Warning--empty title in unosat
+Warning--empty pages in heidemann
+Warning--empty pages in narayanan
+Warning--empty pages in baboud
+Warning--empty pages in liu
+Warning--empty pages in ettinger
+Warning--empty pages in shinzato
+Warning--empty pages in fefi
+Warning--empty pages in zafa
+Warning--can't use both volume and number fields in achanta
+Warning--empty pages in achanta
+Warning--empty pages in mottaghi
+You've used 35 entries,
+            2937 wiz_defined-function locations,
+            851 strings with 11611 characters,
+and the built_in function-call counts, 10193 in all, are:
+= -- 843
+> -- 389
+< -- 7
++ -- 153
+- -- 118
+* -- 634
+:= -- 1366
+add.period$ -- 35
+call.type$ -- 35
+change.case$ -- 35
+chr.to.int$ -- 0
+cite$ -- 50
+duplicate$ -- 362
+empty$ -- 1271
+format.name$ -- 148
+if$ -- 2735
+int.to.chr$ -- 0
+int.to.str$ -- 35
+missing$ -- 32
+newline$ -- 113
+num.names$ -- 34
+pop$ -- 282
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 743
+stack$ -- 0
+substring$ -- 309
+swap$ -- 59
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 15
+while$ -- 53
+width$ -- 37
+write$ -- 292
+(There was 1 error message)

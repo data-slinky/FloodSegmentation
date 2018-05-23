@@ -1,0 +1,30 @@
+\subsubsection{Algorithm 1: Edged-based HLD}
+
+A popular HLD algorithm is to perform edge detection and Hough transformation \cite{zafa, duda}. An image is first pre-processed by changing each pixel to only carry luminosity information (i.e., grayscaling) and reducing noise by passing a low-scale filter. Edge detection using a Canny \cite{canny} or Sobel filter \cite{sobel} is then performed on the image. The resulting edge image is transformed into a Hough map which contains curves representing detected edges relative to its angle and its distance from a center. The peaks of a Hough map represents linear edges found in the image. If we assume that the flood water horizon is the most prominent linear line contained in the image, we can select the highest peak in the Hough map and mapping it back to the original image for segmentation.
+
+\begin{figure}[h!]
+\centering
+\begin{tabular}{cc}
+\subfloat[Input Image]{\label{main:a}\includegraphics[width = 2.5in]{images/flood_easy5_full.eps}} &  
+\subfloat[Canny Edge Detection]{\label{main:b}\includegraphics[width = 2.5in]{images/flood_easy5_edges.eps}} \\
+\subfloat[Hough Map]{\label{main:c}\includegraphics[width = 1.2in]{images/flood_easy5_hough.eps}} &
+\subfloat[Draw Segmentation]{\label{main:d}\includegraphics[width = 2.5in]{images/flood_easy5_result.eps}} 
+\end{tabular}
+\caption{Example of edge detection with Hough transformation for linear water horizon line.}
+\label{fig:hough}
+\end{figure}
+In Figure \ref{fig:hough}, we apply edge detection with Hough transformation for a flood image with a slanted water horizon. We first take the input image, grayscale it, and determine the Canny edges contained in the image. We perform a Hough transformation to extract the edge features of the image and select the curve with the highest peak. As the figure illustrate, we were able to accurately find the horizon line even with a slanted water horizon and the presence of two objects.
+
+We note that edged-based HLD is not applicable for most images as it assumes the horizon line is linear. However,  there might be applications in which the image is guaranteed a linear horizon line so we consider this approach for completeness.
+
+\subsubsection{Drawbacks of Edge-based HLD}
+
+Hough transformation works very well for flood images where the horizon line is linear and prominent. If there are other prominent lines contained in the picture, there will multiple peaks in the Hough map and the water horizon is not guaranteed to correspond to the highest peak. In Figure \ref{fig:hough_fail}, the most prominent line corresponds to the roof of a building so the water horizon was not captured. As crowdsourced images are highly variable, it is likely that the flood water horizon does not correspond to have the highest peak.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{images/hough_incorrect.eps}
+\caption{Hough transformation fails to capture the water horizon.}
+\label{fig:hough_fail}
+\end{figure}
+
+In the case when the horizon is nonlinear, edge-based methods also does not work very well but there are been several algorithms to address this issue. An example is the work of \cite{lie} who  reformulate the HLD problem as a multistage graph shortest path problem by. The shortest path can be found using dynamic programming which give rise to the horizon of the image.  To improve the accuracy and speed of the algorithm, non-horizon edges can be eliminated prior to finding the shortest path by use of machine learning for classification of edges. The classification of SIFT features was used in \cite{ahmad1} and of color information in \cite{hung} for nonlinear horizon.

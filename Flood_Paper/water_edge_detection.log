@@ -1,0 +1,933 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 JAN 2017 11:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**water_edge_detection.tex
+(./water_edge_detection.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 96.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+
+(./water_edge_detection.spl)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\openout3 = `water_edge_detection.spl'.
+
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count95
+\calc@Bcount=\count96
+\calc@Adimen=\dimen109
+\calc@Bdimen=\dimen110
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count97
+\calc@Cskip=\skip49
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen111
+\AM@pageheight=\dimen112
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box30
+\AM@global@opts=\toks17
+\AM@toc@title=\toks18
+\c@AM@survey=\count98
+\AM@templatesizebox=\box31
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count99
+\Gm@cntv=\count100
+\c@Gm@tempcnt=\count101
+\Gm@bindingoffset=\dimen113
+\Gm@wd@mp=\dimen114
+\Gm@odd@mp=\dimen115
+\Gm@even@mp=\dimen116
+\Gm@layoutwidth=\dimen117
+\Gm@layoutheight=\dimen118
+\Gm@layouthoffset=\dimen119
+\Gm@layoutvoffset=\dimen120
+\Gm@dimlist=\toks19
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count102
+\output=\toks20
+\linenoprevgraf=\count103
+\linenumbersep=\dimen121
+\linenumberwidth=\dimen122
+\c@linenumber=\count104
+\c@pagewiselinenumber=\count105
+\c@LN@truepage=\count106
+\c@internallinenumber=\count107
+\c@internallinenumbers=\count108
+\quotelinenumbersep=\dimen123
+\bframerule=\dimen124
+\bframesep=\dimen125
+\bframebox=\box32
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen126
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count111
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4691.
+\c@Hy@tempcnt=\count112
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5044.
+\XeTeXLinkMargin=\dimen127
+\Fld@menulength=\count113
+\Field@Width=\dimen128
+\Fld@charsize=\dimen129
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip50
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen130
+\captionmargin@=\dimen131
+\captionwidth=\dimen132
+\caption@tempdima=\dimen133
+\caption@indent=\dimen134
+\caption@parindent=\dimen135
+\caption@hangindent=\dimen136
+)
+\c@ContinuedFloat=\count119
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count120
+\sf@farskip=\skip51
+\sf@captopadj=\dimen137
+\sf@capskip=\skip52
+\sf@nearskip=\skip53
+\c@subfigure=\count121
+\c@subfigure@save=\count122
+\c@lofdepth=\count123
+\c@subtable=\count124
+\c@subtable@save=\count125
+\c@lotdepth=\count126
+\sf@top=\skip54
+\sf@bottom=\skip55
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(./water_edge_detection.aux
+
+LaTeX Warning: Label `main:d' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:d' multiply defined.
+
+
+LaTeX Warning: Label `main:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:a' multiply defined.
+
+
+LaTeX Warning: Label `main:c' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:c' multiply defined.
+
+
+LaTeX Warning: Label `main:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:a' multiply defined.
+
+
+LaTeX Warning: Label `main:c' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:c' multiply defined.
+
+
+LaTeX Warning: Label `main:c' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:c' multiply defined.
+
+
+LaTeX Warning: Label `main:d' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:d' multiply defined.
+
+
+LaTeX Warning: Label `main:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:a' multiply defined.
+
+
+LaTeX Warning: Label `main:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:b' multiply defined.
+
+
+LaTeX Warning: Label `main:c' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:c' multiply defined.
+
+
+LaTeX Warning: Label `main:d' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:d' multiply defined.
+
+
+LaTeX Warning: Label `main:e' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:e' multiply defined.
+
+
+LaTeX Warning: Label `main:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:a' multiply defined.
+
+
+LaTeX Warning: Label `main:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:b' multiply defined.
+
+
+LaTeX Warning: Label `main:a' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:a' multiply defined.
+
+
+LaTeX Warning: Label `main:b' multiply defined.
+
+
+LaTeX Warning: Label `sub@main:b' multiply defined.
+
+)
+\openout1 = `water_edge_detection.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+ (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count127
+\scratchdimen=\dimen138
+\scratchbox=\box33
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen139
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks22
+)
+\AtBeginShipoutBox=\box34
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=24.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring OFF on input line 12.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count133
+)
+LaTeX Info: Redefining \ref on input line 12.
+LaTeX Info: Redefining \pageref on input line 12.
+LaTeX Info: Redefining \nameref on input line 12.
+
+(./water_edge_detection.out) (./water_edge_detection.out)
+\@outlinefile=\write4
+\openout4 = `water_edge_detection.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 34.
+ [1
+
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 63.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 63.
+
+<images/example_image1.jpg, id=123, 301.125pt x 301.125pt>
+File: images/example_image1.jpg Graphic file (type jpg)
+
+<use images/example_image1.jpg>
+Package pdftex.def Info: images/example_image1.jpg used on input line 72.
+(pdftex.def)             Requested size: 144.54pt x 144.54294pt.
+
+<images/example_image2.jpg, id=124, 301.125pt x 301.125pt>
+File: images/example_image2.jpg Graphic file (type jpg)
+
+<use images/example_image2.jpg>
+Package pdftex.def Info: images/example_image2.jpg used on input line 73.
+(pdftex.def)             Requested size: 144.54pt x 144.54294pt.
+
+<images/example_image3.jpg, id=125, 301.125pt x 301.125pt>
+File: images/example_image3.jpg Graphic file (type jpg)
+
+<use images/example_image3.jpg>
+Package pdftex.def Info: images/example_image3.jpg used on input line 74.
+(pdftex.def)             Requested size: 144.54pt x 144.54294pt.
+
+<images/example_image4.jpg, id=126, 301.125pt x 301.125pt>
+File: images/example_image4.jpg Graphic file (type jpg)
+
+<use images/example_image4.jpg>
+Package pdftex.def Info: images/example_image4.jpg used on input line 75.
+(pdftex.def)             Requested size: 144.54pt x 144.54294pt.
+
+<images/example_image5.jpg, id=127, 301.125pt x 301.125pt>
+File: images/example_image5.jpg Graphic file (type jpg)
+
+<use images/example_image5.jpg>
+Package pdftex.def Info: images/example_image5.jpg used on input line 76.
+(pdftex.def)             Requested size: 144.54pt x 144.54294pt.
+
+<images/example_image6.jpg, id=128, 301.125pt x 301.125pt>
+File: images/example_image6.jpg Graphic file (type jpg)
+
+<use images/example_image6.jpg>
+Package pdftex.def Info: images/example_image6.jpg used on input line 77.
+(pdftex.def)             Requested size: 144.54pt x 144.54294pt.
+ [3] [4 <./images/example_image1.jpg> <./images/example_image2.jpg> <./images/e
+xample_image3.jpg> <./images/example_image4.jpg> <./images/example_image5.jpg> 
+<./images/example_image6.jpg>]
+<images/test_image15.jpg, id=155, 1013.7875pt x 566.115pt>
+File: images/test_image15.jpg Graphic file (type jpg)
+
+<use images/test_image15.jpg>
+Package pdftex.def Info: images/test_image15.jpg used on input line 97.
+(pdftex.def)             Requested size: 180.67499pt x 100.88562pt.
+Package epstopdf Info: Source file: <images/flood_easy5_hough.eps>
+(epstopdf)                    date: 2016-10-18 14:22:37
+(epstopdf)                    size: 20828566 bytes
+(epstopdf)             Output file: <images/flood_easy5_hough-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2016-10-18 14:26:47
+(epstopdf)                    size: 77784 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/flood_easy5_hough-e
+ps-converted-to.pdf images/flood_easy5_hough.eps>
+(epstopdf)             \includegraphics on input line 98.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/flood_easy5_hough-eps-converted-to.pdf, id=156, 167.62625pt x 376.40625
+pt>
+File: images/flood_easy5_hough-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/flood_easy5_hough-eps-converted-to.pdf>
+Package pdftex.def Info: images/flood_easy5_hough-eps-converted-to.pdf used on 
+input line 98.
+(pdftex.def)             Requested size: 86.72377pt x 194.73874pt.
+
+<images/hough_image15.png, id=157, 129.41968pt x 72.27pt>
+File: images/hough_image15.png Graphic file (type png)
+
+<use images/hough_image15.png>
+Package pdftex.def Info: images/hough_image15.png used on input line 99.
+(pdftex.def)             Requested size: 180.67499pt x 100.9016pt.
+
+<images/hough_drawn_image15.png, id=159, 360.34625pt x 203.76125pt>
+File: images/hough_drawn_image15.png Graphic file (type png)
+
+<use images/hough_drawn_image15.png>
+Package pdftex.def Info: images/hough_drawn_image15.png used on input line 100.
+
+(pdftex.def)             Requested size: 180.67499pt x 102.1633pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/test_image22.jpg, id=163, 772.8875pt x 512.91624pt>
+File: images/test_image22.jpg Graphic file (type jpg)
+
+<use images/test_image22.jpg>
+Package pdftex.def Info: images/test_image22.jpg used on input line 116.
+(pdftex.def)             Requested size: 154.57475pt x 102.58142pt.
+
+<images/SLIC_image22.png, id=164, 108.9pt x 72.27pt>
+File: images/SLIC_image22.png Graphic file (type png)
+
+<use images/SLIC_image22.png>
+Package pdftex.def Info: images/SLIC_image22.png used on input line 120.
+(pdftex.def)             Requested size: 163.34958pt x 108.40471pt.
+
+<images/SLIC_drawn_image22.png, id=165, 108.9pt x 72.27pt>
+File: images/SLIC_drawn_image22.png Graphic file (type png)
+
+<use images/SLIC_drawn_image22.png>
+Package pdftex.def Info: images/SLIC_drawn_image22.png used on input line 123.
+(pdftex.def)             Requested size: 163.34958pt x 108.40471pt.
+ [5]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./images/test_image15.jpg> <./images/flood_easy5_hough-eps-converted-to.pdf
+> <./images/hough_image15.png> <./images/hough_drawn_image15.png>] [7 <./images
+/test_image22.jpg> <./images/SLIC_image22.png> <./images/SLIC_drawn_image22.png
+>] <images/test_image10.jpg, id=229, 1204.5pt x 903.375pt>
+File: images/test_image10.jpg Graphic file (type jpg)
+
+<use images/test_image10.jpg>
+Package pdftex.def Info: images/test_image10.jpg used on input line 176.
+(pdftex.def)             Requested size: 130.08621pt x 97.55202pt.
+
+<images/truth_image10.png, id=230, 578.16pt x 433.62pt>
+File: images/truth_image10.png Graphic file (type png)
+
+<use images/truth_image10.png>
+Package pdftex.def Info: images/truth_image10.png used on input line 177.
+(pdftex.def)             Requested size: 130.08621pt x 97.56029pt.
+
+<images/hough_image10.png, id=231, 96.36pt x 72.27pt>
+File: images/hough_image10.png Graphic file (type png)
+
+<use images/hough_image10.png>
+Package pdftex.def Info: images/hough_image10.png used on input line 178.
+(pdftex.def)             Requested size: 130.08621pt x 97.56467pt.
+
+<images/SLIC_image10.png, id=232, 96.36pt x 72.27pt>
+File: images/SLIC_image10.png Graphic file (type png)
+
+<use images/SLIC_image10.png>
+Package pdftex.def Info: images/SLIC_image10.png used on input line 179.
+(pdftex.def)             Requested size: 130.08621pt x 97.56467pt.
+
+<images/FCN8_image10.png, id=233, 96.36pt x 72.27pt>
+File: images/FCN8_image10.png Graphic file (type png)
+
+<use images/FCN8_image10.png>
+Package pdftex.def Info: images/FCN8_image10.png used on input line 180.
+(pdftex.def)             Requested size: 130.08621pt x 97.56467pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8] <images/test_image9.jpg, id=246, 985.6825pt x 657.45625pt>
+File: images/test_image9.jpg Graphic file (type jpg)
+
+<use images/test_image9.jpg>
+Package pdftex.def Info: images/test_image9.jpg used on input line 191.
+(pdftex.def)             Requested size: 130.08621pt x 86.76643pt.
+
+<images/truth_image9.png, id=247, 473.1276pt x 315.579pt>
+File: images/truth_image9.png Graphic file (type png)
+
+<use images/truth_image9.png>
+Package pdftex.def Info: images/truth_image9.png used on input line 192.
+(pdftex.def)             Requested size: 130.08621pt x 86.76762pt.
+
+<images/hough_image9.png, id=248, 108.34984pt x 72.27pt>
+File: images/hough_image9.png Graphic file (type png)
+
+<use images/hough_image9.png>
+Package pdftex.def Info: images/hough_image9.png used on input line 193.
+(pdftex.def)             Requested size: 130.08621pt x 86.77206pt.
+
+<images/SLIC_image9.png, id=249, 108.34984pt x 72.27pt>
+File: images/SLIC_image9.png Graphic file (type png)
+
+<use images/SLIC_image9.png>
+Package pdftex.def Info: images/SLIC_image9.png used on input line 194.
+(pdftex.def)             Requested size: 130.08621pt x 86.77206pt.
+
+<images/FCN8_image9.png, id=250, 108.34984pt x 72.27pt>
+File: images/FCN8_image9.png Graphic file (type png)
+
+<use images/FCN8_image9.png>
+Package pdftex.def Info: images/FCN8_image9.png used on input line 195.
+(pdftex.def)             Requested size: 130.08621pt x 86.77206pt.
+Package epstopdf Info: Source file: <images/hough_incorrect.eps>
+(epstopdf)                    date: 2016-10-20 12:46:50
+(epstopdf)                    size: 45023222 bytes
+(epstopdf)             Output file: <images/hough_incorrect-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2016-10-20 12:46:56
+(epstopdf)                    size: 571925 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/hough_incorrect-eps
+-converted-to.pdf images/hough_incorrect.eps>
+(epstopdf)             \includegraphics on input line 207.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/hough_incorrect-eps-converted-to.pdf, id=252, 488.82625pt x 382.42876pt
+>
+File: images/hough_incorrect-eps-converted-to.pdf Graphic file (type pdf)
+ <use images/hough_incorrect-eps-converted-to.pdf>
+Package pdftex.def Info: images/hough_incorrect-eps-converted-to.pdf used on in
+put line 207.
+(pdftex.def)             Requested size: 195.52702pt x 152.96878pt.
+ [9 <./images/test_image10.jpg> <./images/truth_image10.png (PNG copy)> <./imag
+es/hough_image10.png> <./images/SLIC_image10.png> <./images/FCN8_image10.png> <
+./images/test_image9.jpg> <./images/truth_image9.png (PNG copy)> <./images/houg
+h_image9.png> <./images/SLIC_image9.png> <./images/FCN8_image9.png>]
+Package epstopdf Info: Source file: <images/kmeans4_seg3.eps>
+(epstopdf)                    date: 2016-10-20 14:41:40
+(epstopdf)                    size: 43630166 bytes
+(epstopdf)             Output file: <images/kmeans4_seg3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-20 15:02:14
+(epstopdf)                    size: 510042 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/kmeans4_seg3-eps-co
+nverted-to.pdf images/kmeans4_seg3.eps>
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
+
+<images/kmeans4_seg3-eps-converted-to.pdf, id=274, 494.84875pt x 372.39125pt>
+File: images/kmeans4_seg3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/kmeans4_seg3-eps-converted-to.pdf>
+Package pdftex.def Info: images/kmeans4_seg3-eps-converted-to.pdf used on input
+ line 216.
+(pdftex.def)             Requested size: 180.67499pt x 135.96428pt.
+
+Overfull \hbox (39.74706pt too wide) in paragraph at lines 216--217
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <images/kmeans4_seg4.eps>
+(epstopdf)                    date: 2016-10-20 14:42:10
+(epstopdf)                    size: 43630166 bytes
+(epstopdf)             Output file: <images/kmeans4_seg4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-20 15:02:15
+(epstopdf)                    size: 582516 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/kmeans4_seg4-eps-co
+nverted-to.pdf images/kmeans4_seg4.eps>
+(epstopdf)             \includegraphics on input line 220.
+Package epstopdf Info: Output file is already uptodate.
+<images/kmeans4_seg4-eps-converted-to.pdf, id=275, 494.84875pt x 372.39125pt>
+File: images/kmeans4_seg4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/kmeans4_seg4-eps-converted-to.pdf>
+Package pdftex.def Info: images/kmeans4_seg4-eps-converted-to.pdf used on input
+ line 220.
+(pdftex.def)             Requested size: 180.67499pt x 135.96428pt.
+
+Overfull \hbox (49.20056pt too wide) in paragraph at lines 214--221
+[]$[]$ $[]$ 
+ []
+
+Package epstopdf Info: Source file: <images/kmeans5_seg3.eps>
+(epstopdf)                    date: 2016-10-20 15:10:18
+(epstopdf)                    size: 43630166 bytes
+(epstopdf)             Output file: <images/kmeans5_seg3-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-20 15:10:42
+(epstopdf)                    size: 482000 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/kmeans5_seg3-eps-co
+nverted-to.pdf images/kmeans5_seg3.eps>
+(epstopdf)             \includegraphics on input line 224.
+Package epstopdf Info: Output file is already uptodate.
+<images/kmeans5_seg3-eps-converted-to.pdf, id=276, 494.84875pt x 372.39125pt>
+File: images/kmeans5_seg3-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/kmeans5_seg3-eps-converted-to.pdf>
+Package pdftex.def Info: images/kmeans5_seg3-eps-converted-to.pdf used on input
+ line 224.
+(pdftex.def)             Requested size: 180.67499pt x 135.96428pt.
+
+Overfull \hbox (39.74706pt too wide) in paragraph at lines 224--225
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <images/kmeans5_seg4.eps>
+(epstopdf)                    date: 2016-10-20 15:10:29
+(epstopdf)                    size: 43630166 bytes
+(epstopdf)             Output file: <images/kmeans5_seg4-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-20 15:10:44
+(epstopdf)                    size: 555456 bytes
+(epstopdf)             Command: <repstopdf --outfile=images/kmeans5_seg4-eps-co
+nverted-to.pdf images/kmeans5_seg4.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+<images/kmeans5_seg4-eps-converted-to.pdf, id=277, 494.84875pt x 372.39125pt>
+File: images/kmeans5_seg4-eps-converted-to.pdf Graphic file (type pdf)
+
+<use images/kmeans5_seg4-eps-converted-to.pdf>
+Package pdftex.def Info: images/kmeans5_seg4-eps-converted-to.pdf used on input
+ line 228.
+(pdftex.def)             Requested size: 180.67499pt x 135.96428pt.
+
+Overfull \hbox (49.20056pt too wide) in paragraph at lines 222--229
+[]$[]$ $[]$ 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./images/hough_incorrect-eps-converted-to.pdf>]
+(./water_edge_detection.bbl [11 <./images/kmeans4_seg3-eps-converted-to.pdf> <.
+/images/kmeans4_seg4-eps-converted-to.pdf> <./images/kmeans5_seg3-eps-converted
+-to.pdf> <./images/kmeans5_seg4-eps-converted-to.pdf>] [12] [13])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 248.
+ [14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 248.
+
+(./water_edge_detection.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 248.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 248.
+
+
+Package rerunfilecheck Warning: File `water_edge_detection.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `water_edge_detection.out':
+(rerunfilecheck)             Before: E552C80FBAAC18038C4952FA74855B69;948
+(rerunfilecheck)             After:  23E0B38E6C5F12F250E58DA710F62AC9;961.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 248.
+ ) 
+Here is how much of TeX's memory you used:
+ 9044 strings out of 493014
+ 137788 string characters out of 6133351
+ 241201 words of memory out of 5000000
+ 12345 multiletter control sequences out of 15000+600000
+ 8106 words of font info for 28 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,17n,49p,1139b,566s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on water_edge_detection.pdf (14 pages, 5367755 bytes).
+PDF statistics:
+ 451 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+

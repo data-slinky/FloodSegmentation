@@ -1,0 +1,180 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{poser}
+K.~Poser, H.~Kreibich, D.~Dransch, Assessing volunteered geographic information
+  for rapid flood damage estimation, in: 12th AGILE International Conference on
+  Geographic Information Science, 2009.
+
+\bibitem{moreira}
+R.~de~Brito~Moreira, L.~Degrossi, J.~de~Alburquerque, An experimental
+  evaluation of a crowdsourcing-based approach for flood risk management, in:
+  12th Workshop on Experimental Software Engineering, 2015.
+
+\bibitem{wan}
+Z.~Wan, Y.~Hong, S.~Khan, J.~Gourley, Z.~Flamig, D.~Kirschbaum, G.~Tang, A
+  cloud-based global flood disaster community cyber-infrastructure: Development
+  and demonstration, Environmental Modelling and Software 58~(86-94).
+
+\bibitem{lieske}
+D.~Lieske, Coping with climate change: The role of spatial decision support
+  tools in facilitating community adaptation, Environmental Modelling and
+  Software 68~(98-109).
+
+\bibitem{horita}
+F.~E. Horita, J.~P. Alburquerque, L.~C. Degrossi, E.~M. Mendiondo, J.~Ueyama,
+  Geographical prioritization of social network messages in near real-time
+  using sensor data streams: an application to floods, Computers and
+  Geosciences 80~(84-94).
+
+\bibitem{youssef}
+A.~M. Youssef, B.~Pradhan, A.~M. Hassan, Flash flood risk estimation along the
+  st. katherine road, southern sinai, egypt using gis based morphometry and
+  satellite imagery, Environmental Earth Sciences 62~(3) (2011) 611.
+
+\bibitem{robertson}
+N.~Robertson, T.~Chan, Aerial image segmentation for flood risk analysis, in:
+  16th IEEE International Conference on Image Processing, 2009, pp. 597--600.
+
+\bibitem{hanhmann}
+T.~Hahmann, S.~Martinis, A.~Twele, A.~Roth, M.~Buchroithner, Extraction of
+  water and flood areas from sar data, in: 7th European Conference on Synthetic
+  Aperture Radar, 2008, pp. 1--4.
+
+\bibitem{tholey}
+N.~Tholey, S.~Clandillon, P.~D. Fraipont, The contribution of spaceborne sar
+  and optical data in monitoring flood events: examples in northern and
+  southern france, Hydrological Processes 11~(10) (1997) 1409--1413.
+
+\bibitem{khan}
+S.~I. Khan, Y.~Hong, J.~J. Gourley, M.~U. Khattak, T.~D. Groeve, Multi-sensor
+  imaging and space-ground cross-validation for 2010 flood along indus river,
+  pakistan, Remote Sensing 6~(3) (2014) 2393--2407.
+
+\bibitem{tralli}
+D.~M. Tralli, R.~G. Blom, V.~Zlotnicki, A.~Donnellan, D.~L. Evans, Satellite
+  remote sensing of earthquake, volcano, flood, landslide and coastal
+  inundation hazards, ISPRS Journal of Photogrammetry and Remote Sensing 59~(4)
+  (2005) 185--198.
+
+\bibitem{sande}
+C.~van~der Sande, S.~de~Jong, A.~de~Roo, A segmentation and classification
+  approach of ikonos-2 imagery for land cover mapping to assist flood risk and
+  flood damage assessment, International Journal of Applied Earth Observation
+  and Geoinformation 4~(3) (2003) 217--229.
+
+\bibitem{ko}
+B.~Ko, J.~Kwak, J.~H. Hong, J.~Nam, Current trend in natural disaster warning
+  systems based on computer vision techniques, in: Asian Conference on Pattern
+  Recognition (ACPR), 2011.
+
+\bibitem{unosat}
+ [online, cited November 1,
+  2016]\href{http://eomag.eu/articles/1856/validating-space-observations-for-flooding-with-crowdsourcing-in-situ-observations-by-ansur}{[link]}.
+
+\bibitem{heidemann}
+H.~K. Heidemann, Collection and Delineation of Spatial Data, U.S. Geological
+  Survey, 2014, Ch. Lidar Base Specification.
+
+\bibitem{park}
+S.~Park, N.~Lee, Y.~Han, H.~Hahn, The water level detection algorithm using the
+  accumulated histogram with band pass filter, International Journal of
+  Computer, Electrical, Automation, Control and Information Engineering 3~(8)
+  (2009) 2151--2155.
+
+\bibitem{yu}
+J.~YU, H.~HAHN, Remote detection and monitoring of a water level using narrow
+  band channel, JOURNAL OF INFORMATION SCIENCE AND ENGINEERING 26 (2010) 71.
+
+\bibitem{narayanan}
+R.~Narayanan, V.~M. Lekshmy, S.~Rao, K.~Sasidhar, A novel approach to urban
+  flood monitoring using computer vision, in: 2014 International Conference on
+  Computing, Communication and Networking Technologies (ICCCNT), 2014.
+
+\bibitem{witherow}
+M.~A. Witherow, K.~M. Iftekharuddin, M.~Cetin, Analysis of crowd-sourced
+  flooding images using computer vision techniques, Tech. rep., Old Dominion
+  University USRIP Symposium (2016).
+
+\bibitem{baatz}
+G.~Baatlz, O.~Saurer, K.~Koser, M.~Pollefeys, Large scale visual
+  geo-localization of images in mountainous terrain, in: 12th European
+  Conference on Computer Vision, 2012, pp. 517--530.
+
+\bibitem{baboud}
+L.~Baboud, M.~Cadik, E.~Eisemann, H.~Seidel, Automatic photo-to-terrain
+  alignment for the annotation of mountain pictures, in: Computer Vision and
+  Pattern Recognition, 2011.
+
+\bibitem{liu}
+W.~Liu, C.~Su, Automatic peak recognition for mountain images, in: Advanced
+  Technologies, Embedded and Multimedia for Human-centric Computing Advanced
+  Technologies, Embedded and Multimedia for Human-centric Computing, Springer,
+  2014.
+
+\bibitem{ettinger}
+S.~Ettinger, M.~Nechyba, P.~Ifju, M.~Waszak, Vision-guided flight stability and
+  control for micro air vehicles, in: Intelligent Robots and Systems, 2002.
+
+\bibitem{shinzato}
+P.~Y. Shinzato, V.~G. Jr, S.~Osorio, D.~F. Wolf, Fast visual road recognition
+  and horizon detection using multiple artificial neural networks, in:
+  Intelligent Vehicles Symposium, 2012.
+
+\bibitem{fefi}
+S.~Fefilatyevlatyev, V.~Smarodzinava, L.~O. Hall, D.~B. Goldof, Horizon
+  detection using machine learning techniques, in: 5th International Conference
+  on Machine Learning and Applications, 2006.
+
+\bibitem{zafa}
+B.~Zafarifar, H.~Weda, Horizon detection based on sky-color and edge features,
+  in: SPIE, 2008.
+
+\bibitem{duda}
+R.~O. Duda, P.~E. Hart, Use of the hough transformation to detect lines and
+  curves in pictures, Tech. rep., Artificial Intelligence Center at SRI
+  International (1971).
+
+\bibitem{canny}
+J.~Canny, A computational approach to edge detection, IEEE Transactions on
+  Pattern Analysis and Machine Intelligence 8~(6) (1986) 679--698.
+
+\bibitem{sobel}
+I.~Sobel, G.~Feldman, An isotropic 3x3 image gradient operator for image
+  processing, presented at Stanford Artificial Intelligence Project (SAIL)
+  (1968).
+
+\bibitem{achanta}
+R.~Achanta, A.~Shaji, K.~Smith, A.~Lucchi, P.~Fua, , S.~Susstrunk, Slic
+  superpixels compared to state-of-the-art superpixel methods, in: IEEE
+  Transactions on Pattern Analysis and Machine Intelligence, Vol.~34, 2012.
+
+\bibitem{schmidhuber}
+J.~Schmidhuber, Deep learning in neural networks: An overview, Neural Networks
+  61 (2015) 85--117.
+
+\bibitem{long}
+J.~Long, E.~Shelhamer, T.~Darrell, Fully convolutional networks for semantic
+  segmentation, in: IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR), 2015, pp. 3431--3440.
+
+\bibitem{girshick}
+R.~Girshick, J.~Donahue, T.~Darrell, J.~Malik, Rich feature hierarchies for
+  accurate object detection and semantic segmentation, in: IEEE Conference on
+  Computer Vision and Pattern Recognition (CVPR), 2014, pp. 580--587.
+
+\bibitem{weiss}
+K.~Weiss, T.~M. Khoshgoftaar, D.~Wang, A survey of transfer learning, Journal
+  of Big Data 3~(9).
+
+\bibitem{mottaghi}
+R.~Mottaghi, X.~Chen, X.~Liu, N.-G. Cho, S.-W. Lee, S.~Fidler, R.~Urtasun,
+  A.~Yuille, The role of context for object detection and semantic segmentation
+  in the wild, in: IEEE Conference on Computer Vision and Pattern Recognition
+  (CVPR), 2014.
+
+\end{thebibliography}

@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related Work \046 Contributions}{}% 2
+\BOOKMARK [1][-]{section.3}{Crowdsourced Flood Image Dataset}{}% 3
+\BOOKMARK [1][-]{section.4}{Methodologies}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Horizon Line Detection for Flood Images}{section.4}% 5
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Algorithm 1: Edged-based HLD}{subsection.4.1}% 6
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Algorithm 2: Flood Segmentation via SLIC}{subsection.4.1}% 7
+\BOOKMARK [2][-]{subsection.4.2}{Deep Learning for Flood Images}{section.4}% 8
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Algorithm 3: Flood Segmentation via FCN}{subsection.4.2}% 9
+\BOOKMARK [1][-]{section.5}{Evaluation}{}% 10
+\BOOKMARK [2][-]{subsection.5.1}{Metrics}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.2}{Result}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.3}{Drawbacks of Hough and SLIC}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 14

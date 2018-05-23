@@ -1,0 +1,64 @@
+\documentclass{report}
+\usepackage{outline}
+\usepackage{geometry}[1in]
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{outline}
+  \item {\bf Introduction }
+  \begin{outline}
+    \item Usefulness of crowdsourced geographic information in flood research in general.
+    \item Remotely sensed image versus crowdsourced images.
+    \item What is flood water segmentation and and its challenges?
+  \end{outline}
+    \item {\bf Related Work \& Contributions}
+    \begin{outline}
+	    \item Present Witherow paper and why such approach is bad in practice.
+	    \item {\bf Thesis:} Flood water segmentation is possible from just a single image and without any 						 assumptions on the crowdsourced flood image
+	    \item Summarize the paper structure.
+    \end{outline}
+    \item {\bf Flood Water Segmentation}
+    \begin{outline}
+	    \item Detail the goal of image processing and computer vision algorithms for this problem.
+	    \item {\bf Horizon Line Detection for Flood Images}
+	    	\begin{outline}
+			    \item What is HLD? How has it been applied?
+			    \item {\bf Edged-based HLD}
+			    \begin{outline}
+			    	\item {\bf Algorithm}: Edge detection with Hough transformation
+			    \end{outline}
+			    \item {\bf Drawbacks of Edged-based HLD}
+			    \begin{outline}
+			    	\item Does not work if water horizon is not the most prominent edge.
+				\item Example image with problem.
+				\item Not applicable to nonlinear water horizon unless you employ fancier methods.
+			    \end{outline}
+			    \item {\bf Region-based HLD}
+			    \begin{outline}
+			    	\item Briefly discuss what is region-based HLD and define superpixels
+				\item {\bf Algorithm}: SLIC/SLICO
+			    \end{outline}
+			    \item {\bf Drawbacks of Region-based HLD}
+			    \begin{outline}
+			    	\item Number of clusters to set is unclear and can have widely different results.
+				\item Specularity is a big problem.
+				\item Example image with problem.
+			    \end{outline}
+			    \item {\bf Semantic Segmentation for Flood Images}
+			    \begin{outline}
+			    	\item What is the current state-of-the-art approach in computer vision for segmentation?
+				\item What is convolutional neural networks (CNN) and how it is different from the 						  traditional approach?
+				\item {\bf Algorithm}: Fully Convolutional Neural Network (FCN) trained on PASCAL-Context
+			    \end{outline}
+			    \item {\bf Improving FCN Approach}
+			    \begin{outline}
+			    	\item Transfer learning and finetuning on labeled flood images
+			    \end{outline}
+		\end{outline}
+    \end{outline}
+    \item {\bf Conclusion}
+    \item {\bf References}
+\end{outline}
+
+\end{document}
